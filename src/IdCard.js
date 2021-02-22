@@ -4,8 +4,9 @@ function IdCard(props) {
     return (
         <div>
         <section>
-        <img src={props.picture}></img>
+        <img src={props.picture} alt={`of ${props.firstName} ${props.lastName}`}></img>
         <ul>
+
             <li>First Name: {props.firstName}</li>
             <li>Last Name: {props.lastName}</li>
             <li>Gender Name: {props.gender}</li>
